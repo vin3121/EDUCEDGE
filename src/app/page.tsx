@@ -1,5 +1,5 @@
 import Image from "next/image";
-
+import ScaleneTriangle from "@/components/ScaleneTriangle";
 
 export default function Home() {
   return (
@@ -11,6 +11,8 @@ export default function Home() {
           width={500}
           height={300}
         />
+        <div className="relative grid grid-rows-[20px_1fr_20px] items-center justify-items-center min-h-screen p-8 pb-20 gap-16 sm:p-20 font-[family-name:var(--font-geist-sans)]"></div>
+        <ScaleneTriangle />
       </main>
     </div>
   );
